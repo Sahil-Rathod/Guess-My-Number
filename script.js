@@ -12,7 +12,7 @@ console.log(secretNumber);
 const btn = document.querySelector(".check");
 
 btn.addEventListener("click", function () {
-  const guess = Number((document.querySelector(".guess").value = secretNumber));
+  const guess = Number((document.querySelector(".guess").value));
 
   if (!guess) {
     displayMessage("⛔No number provided");
